@@ -67,6 +67,6 @@ rm out.h264
 }
 
 test_executable ./minimp4_x86
-test_executable "qemu-arm ./minimp4_arm_gcc"
+#test_executable "qemu-arm ./minimp4_arm_gcc"
 
 echo test passed
